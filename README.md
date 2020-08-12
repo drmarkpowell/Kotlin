@@ -49,6 +49,7 @@ Hello, world!!!
 ```
 
 Some important things to know:
+
 * [The Elvis operator](https://kotlinlang.org/docs/reference/null-safety.html#elvis-operator)
 * [Smart Casts](https://kotlinlang.org/docs/reference/typecasts.html)
 
@@ -57,3 +58,4 @@ Some important things to know:
 * [Kotlin Playground](https://play.kotlinlang.org/hands-on/overview)
 * Interactive Exercises: [Kotlin Koans](https://play.kotlinlang.org/koans)
 * Kotlin Evolution Proposals [KEEP](https://github.com/Kotlin/KEEP)
+* Many Android/Kotlin code tutorials and video walkthroughs at [raywenderlich.com](https://www.raywenderlich.com/)
