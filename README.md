@@ -28,10 +28,9 @@
     * [Dukat](https://github.com/kotlin/dukat) assists with conversion of TypeScript definitions to Kotlin/JS
     * [Writing for React with Kotlin](https://play.kotlinlang.org/hands-on/Building%20Web%20Applications%20with%20React%20and%20Kotlin%20JS/01_Introduction?_ga=2.48013543.130858947.1597256917-436358688.1584403503)
 * Declarative UI for Android apps: [Jetpack Compose](https://developer.android.com/jetpack/compose)
-	* as of this writing, self-described as evolving with API breaking changes expected
+	* as of this writing,latest version is [0.1.0-dev16](https://developer.android.com/jetpack/androidx/releases/compose) self-described as evolving with API breaking changes expected
 
 	
-
 ##What does it look like?
 
 ```
@@ -44,11 +43,17 @@ fun factorial(i: Int): Int {
     return if (i == 0 || i == 1) { i } else { i * factorial(i-1) }
 }
 ```
--
 ```
 Hello, world!!!
 3628800
 ```
+
+Some important things to know:
+* [The Elvis operator](https://kotlinlang.org/docs/reference/null-safety.html#elvis-operator)
+* [Smart Casts](https://kotlinlang.org/docs/reference/typecasts.html)
+
 ## Where do I go to learn it?
 
-[Kotlin Playground](https://play.kotlinlang.org/hands-on/overview)
+* [Kotlin Playground](https://play.kotlinlang.org/hands-on/overview)
+* Interactive Exercises: [Kotlin Koans](https://play.kotlinlang.org/koans)
+* Kotlin Evolution Proposals [KEEP](https://github.com/Kotlin/KEEP)
